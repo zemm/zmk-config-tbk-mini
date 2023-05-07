@@ -1,0 +1,7 @@
+---
+
+include:
+  - board: nice_nano_v2
+    shield: tbkmini_adapterv2_left
+  - board: nice_nano_v2
+    shield: tbkmini_adapterv2_right
