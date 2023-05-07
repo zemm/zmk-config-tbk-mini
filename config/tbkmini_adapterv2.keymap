@@ -70,9 +70,9 @@
 
 		default_layer {
 			bindings = <
-	&kp TAB     &kp Q        &kp W       &kp E       &kp R       &kp T    &kp Y &kp U       &kp I       &kp O      &kp P         &kp RA(Q)
-	&kp BSPC    &hm LMOD1 A  &hm LMOD2 S &hm LMOD3 D &hm LMOD4 F &kp G    &kp H &hm RSHFT J &hm RCTRL K &hm LALT L &hm RGUI SEMI &kp RA(P)
-	&kp LSHFT   &kp Z        &kp X       &kp C       &kp V       &kp B    &kp N &kp M       &kp COMMA   &kp DOT    &kp FSLH      &mt RSHFT RET
+	&kp TAB     &kp Q        &kp W       &kp E       &kp R       &kp T    &kp Y &kp U     &kp I       &kp O       &kp P          &kp RA(Q)
+	&kp BSPC    &lm LMOD1 A  &lm LMOD2 S &lm LMOD3 D &lm LMOD4 F &kp G    &kp H &rm RMOD4 &rm RMOD3 K &rm RMOD2 L &rm RMOD1 SEMI &kp RA(P)
+	&kp LSHFT   &kp Z        &kp X       &kp C       &kp V       &kp B    &kp N &kp M     &kp COMMA   &kp DOT     &kp FSLH       &mt RSHFT RET
 	            &lt FUN ESC  &lt NAV SPACE  &mo NAV                       &lt NAV RET &mo NUMSYM  &kp RALT
 			>;
 		};
@@ -81,7 +81,7 @@
 	&kp TAB     &kp LS(TAB) &sk RALT  &key_repeat &kp SPACE &kp ESC          &kp F4   &kp PG_UP &kp UP     &kp K_PASTE &kp K_AGAIN &kp TAB
 	&kp BSPC    &sk LMOD1   &sk LMOD2 &sk LMOD3   &sk LMOD4 &kp DEL          &kp CAPS &kp LEFT  &kp DOWN   &kp RIGHT   &kp CAPS    &kp DEL
 	&trans      &kp LC(Z)   &kp LC(X) &kp LC(C)   &kp LC(V) &kp RET          &kp F2   &kp HOME  &kp SPACE  &kp END     &kp INS     &trans
-	                    &trans    &trans    &trans                           &trans   &lt NUMSYM SPACE     &trans
+	                    &trans    &trans    &trans                           &trans   &lt NUMSYM SPACE     &key_repeat
 			>;
 		};
 		numsym_layer {
